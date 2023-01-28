@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="productform.css">
+</head>
+<body>
+    <div class="product-form-container">
+        <div class="product-form">
+            <div class="product-item">
+                <div class="product-item__product-link">
+                    <div class="link_icon">
+                        <svg fill="#F1C84E" width="256px" height="256px" viewBox="-3.2 -3.2 38.40 38.40" version="1.1" xmlns="http://www.w3.org/2000/svg" transform="rotate(-45)matrix(-1, 0, 0, 1, 0, 0)" stroke="#F1C84E" stroke-width="0.288"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.064"></g><g id="SVGRepo_iconCarrier"> <title>link</title> <path d="M25.33 9.84l-3.5 6.062c-0.553 0.956-1.775 1.284-2.732 0.731l-0.865-0.5 1-1.731c0.478 0.275 1.090 0.112 1.365-0.366l2.5-4.33c0.276-0.479 0.112-1.090-0.365-1.366l-3.465-2c-0.479-0.276-1.090-0.112-1.365 0.366l-2.5 4.33c-0.277 0.479-0.113 1.090 0.365 1.366l-1 1.731-0.865-0.5c-0.957-0.552-1.285-1.775-0.732-2.731l3.5-6.062c0.553-0.957 1.775-1.284 2.732-0.732l5.195 3c0.957 0.552 1.285 1.775 0.732 2.732zM13.5 20.33c-0.479-0.276-0.643-0.888-0.366-1.366l4-6.928c0.276-0.479 0.888-0.643 1.366-0.366s0.643 0.888 0.365 1.366l-4 6.928c-0.275 0.478-0.886 0.641-1.365 0.366zM12.768 17.599v0c-0.479-0.276-1.090-0.112-1.366 0.365l-2.5 4.33c-0.276 0.479-0.112 1.090 0.366 1.366l3.465 2c0.478 0.276 1.090 0.112 1.365-0.366l2.5-4.33c0.276-0.478 0.112-1.090-0.365-1.366v0l1-1.731 0.865 0.5c0.957 0.552 1.285 1.774 0.732 2.731l-3.5 6.062c-0.553 0.957-1.775 1.284-2.732 0.732l-5.196-3c-0.957-0.553-1.285-1.775-0.732-2.732l3.5-6.062c0.553-0.957 1.776-1.285 2.733-0.732l0.865 0.5-1 1.733z"></path> </g></svg>
+                    </div>
+                    <input
+                     type="text" name="" id="" 
+                     class="product_link_box"
+                     placeholder="Place Product Link Here"
+                    >
+                </div>
+                <div class="product-item__metainfo">  
+                    <select name="cars" id="cars" class="w-30 metainput " >
+                        <option value="" selected>FROM COUNTRY</option>
+                        <option value="volvo">Volvo</option>
+                    </select>
+
+                    <select name="" id="" class="w-30 metainput" >
+                        <option value="" selected>TO COUNTRY</option>
+                        <option value="volvo">Volvo</option>
+                    </select>
+
+                    <input type="text" name="" id="" class="w-30 metainput greybg"
+                     placeholder="Apply Code if any">
+
+                    <input type="text" name="" id="" class="w-40 metainput greybg"
+                     placeholder="Product Name">
+
+                    <input type="text" name="" id="" class="w-25 metainput greybg"
+                     placeholder="Product Weight in Gram">
+
+                     <select name="" id="" class="w-25 metainput" >
+                        <option value="" selected>Category</option>
+                        <option value="volvo">Volvo</option>
+                    </select> 
+                     
+
+                    <div class="product-variation-with-price w-100">
+
+                        <input type="text" name="" id="" class="w-25 metainput greybg"
+                        placeholder="color">
+                        <input type="text" name="" id="" class="w-25 metainput greybg"
+                        placeholder="size">
+                        <input type="number" name="" id="" class="w-25 metainput greybg"
+                        placeholder="product quantity">
+
+                        <input type="text" name="" id="" class="w-65 metainput greybg"
+                        placeholder="Product Price">
+                        <button class="w-25 btn-skyblue  btn add-new-variation"> +Add New</button>
+                       
+
+                        <!--
+
+                        <div class="product-variation-with-price w-100"> 
+                        <hr style="width:100%">  
+                        <input type="text" name="" id="" class="w-25 metainput greybg"
+                        placeholder="color">
+                        <input type="text" name="" id="" class="w-25 metainput greybg"
+                        placeholder="size">
+                        <input type="number" name="" id="" class="w-25 metainput greybg"
+                        placeholder="product quantity">
+                        
+                         <input type="text" name="" id="" class="w-60 metainput greybg"
+                        placeholder="Product Price">
+                        <button class="w-15 btn-skyblue  btn"> +Add New</button>
+                        <button class="w-15 btn-danger add-new-variation  btn"> Delete</button> 
+                        </div>
+                    -->       
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="m-3 warning-txt-info">
+           
+            <span style="color: red;">&#9888;</span> 
+             Weight Charge 1250Taka/Kilo General Goods , Minimum shipping charge 650taka applicable per shipment.
+        </div>
+        <div class="pair__buttons ">
+            <button class="btn-2 btn-green m-3 add-new-product">+New Product</button>
+            <button class="btn-2 btn-yellow m-3">Get Price</button>
+        </div>
+    </div>
+
+    <script src="/productform.js"></script>
+</body>
+</html>
